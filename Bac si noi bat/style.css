@@ -1,0 +1,247 @@
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 80px;
+  background-color: #45c3d2;
+  color: white;
+}
+.header-arrow {
+  cursor: pointer;
+}
+.header-navbar {
+  display: flex;
+  cursor: pointer;
+}
+.header-support {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header-bar {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  justify-content: center;
+  padding-left: 15px;
+}
+.header-question {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 100%;
+  color: #45c3d2;
+}
+.header-support_text {
+  padding-top: 10px;
+}
+
+.content {
+  width: 53%;
+  margin: 0 auto;
+}
+
+.menu {
+  list-style: none;
+  padding-top: 15px;
+  display: flex;
+  color: #45c3d2;
+}
+.menu-item {
+  cursor: pointer;
+}
+.menu-item a {
+  color: #45c3d2;
+  padding-left: 10px;
+}
+
+.info {
+  margin-top: 20px;
+  display: flex;
+}
+.info-image {
+  width: 160px;
+  height: 150px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.info-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.info-left {
+  margin-left: 25px;
+}
+.info-title {
+  font-weight: bold;
+  font-size: 30px;
+}
+.info-content {
+  width: 700px;
+  padding-top: 15px;
+  font-size: 18px;
+}
+.info-content span {
+  display: block;
+  padding: 5px;
+}
+.info-footer {
+  margin-top: 10px;
+  display: flex;
+  cursor: pointer;
+}
+.info-footer_like {
+  margin-right: 10px;
+  background-color: #1877f2;
+  width: 120px;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 0 5px 0px #1877f2;
+}
+.info-footer span {
+  display: inline-block;
+  padding: 5px 5px;
+}
+.info-footer_share {
+  background-color: #1877f2;
+  width: 80px;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 0 5px 0px #1877f2;
+}
+
+.calendar-current {
+  color: #337ac7;
+  font-size: 18px;
+  margin: 15px 0;
+  padding-bottom: 15px;
+  width: 180px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+.calendar-current i {
+  font-size: 15px;
+}
+.calendar-book {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 15px 0;
+  cursor: pointer;
+}
+.calendar-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.calendar-time {
+  display: flex;
+  flex-wrap: wrap;
+  width: 55%;
+  list-style: none;
+}
+.calendar-link {
+  background-color: #fff04b;
+  display: block;
+  padding: 15px 15px;
+  margin: 5px 5px;
+  color: black;
+  font-weight: bold;
+  border: 2px solid transparent;
+}
+.calendar-link:hover {
+  border-color: #1877f2;
+}
+
+.address {
+  padding-left: 50px;
+  border-left: 1px solid #ddd;
+}
+.address h3 {
+  color: #9d7866;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 22px;
+}
+.address-place {
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+.address-number {
+  text-transform: uppercase;
+}
+.address-cover {
+  border-top: 1px solid #eee;
+  margin-top: 10px;
+  padding: 10px 0;
+  text-transform: uppercase;
+}
+.address-cover span {
+  font-weight: bold;
+}
+
+.detail {
+  margin: 15px 0;
+}
+.detail h3 {
+  font-weight: bold;
+  font-size: 20px;
+}
+.detail span {
+  display: block;
+  padding-top: 10px;
+  font-size: 18px;
+}
+.detail-info {
+  list-style-type: disc;
+}
+.detail-info li {
+  margin: 15px 35px;
+  font-size: 18px;
+}
+
+.response {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+}
+.response h2 {
+  margin: 15px 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+.response-comment {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.response-name {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.response-name i {
+  color: #89c3d2;
+}
+.response-name span {
+  cursor: pointer;
+  color: #89c3d2;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=style.css.map */
